@@ -153,22 +153,49 @@ header .border-header span:nth-child(3) {
     font-family: "Space Grotesk", sans-serif;
 }
 
-.profile-bob .description img{
+.profile-bob .description img {
     width: 100%;
     align-self: center;
     margin: .5rem 0 ;
 }
 
-.profile-bob .profile-header{
+.profile-bob .profile-header {
     display: flex;
     flex-direction: row;
 
 }
 
-.profile-bob .profile-header h2{
+.profile-bob .profile-header h2 {
     font-size: 7vw;
     font-family: "Sometype Mono", monospace;
     font-weight: 300;
+}
+
+.profile-bob .description .image-bob67 {
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+}
+
+.profile-bob .description .image-bob67 img{
+    margin-right: .1rem;
+    width: 40%;
+}
+
+.profile-bob .description .image-bob89 {
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+}
+
+.profile-bob .description .image-bob89 img:first-child{
+    margin-right: .1rem;
+    width: 45%;
+}
+
+.profile-bob .description .image-bob89 img:last-child{
+    margin-right: .1rem;
+    width: 41.8%;
 }
 
 
