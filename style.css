@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #DD1155;
+}
+
+.text-header {
+    text-align: center;
+    font-size: 15vw;
+    font-family: "Sometype Mono", monospace;
+    font-weight: lighter;
+    color: #a7ce64;
+    padding: .7rem 0;
+}
+
+header div {
+    display: flex;
+    gap: .5rem;
+}
+
+header .border-header span:first-child {
+    width: 35%;
+    height: .2rem;
+    background-color: #D6D8D4;
+}
+
+header .border-header span:nth-child(2) {
+    width: 8%;
+    height: .2rem;
+    background-color: #D6D8D4;
+}
+
+header .border-header span:nth-child(3) {
+    width: 2%;
+    height: .2rem;
+    background-color:#D6D8D4;
+    margin-left: .7rem;
+}
+
+.hamburgerButton{
+    padding-left: .7rem;
+    color: #D6D8D4;
+}
+
+.hamburgerButton span{
+    color: #a7ce64;
+    padding-top: .2rem;
+}
+
+.hero {
+    padding: 7%;
+    display: flex;
+    flex-direction: column; 
+    gap: 2rem;
+}
+
+.hero .hero-description p:last-child {
+    margin-top: 1rem;
+}
+
+.hero .hero-description p {
+    color: #a7ce64;
+}
+
+.hero .hero-image {
+    width: 50%;
+    align-self: center;
+}
+
+.hero .hero-image img {
+    width: 100%;
+}
+
+.profile {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+}
+
+.profile .name {
+    /* border:2px solid black; */
+    font-family: "Space Grotesk", sans-serif;
+    width: 10rem;
+    height: 10rem;
+}
+
+.profile .name h2 {
+    font-size: 2rem; 
+    text-align: center;
+    color: #a7ce64;
+    font-weight: 500;
+}
+
+.profile .name p {
+    color: #a7ce64;
+}
+
+.profile .name span {
+    width: .3rem;
+    height: .3rem;
+    background-color:#D6D8D4;
+}
+
+/* Collab Start */
+.profile-jeffi {
+    display: flex;
+    flex-direction: column; 
+    color: #a7ce64;
+    text-align: justify;
+}
+
+.profile-jeffi .description {
+    padding: 0 20%;
+    display: flex;
+    flex-direction: column;
+    font-family: "Space Grotesk", sans-serif;
+}
+
+.profile-jeffi .description img{
+    width: 50%;
+    align-self: center;
+    margin: 2rem 0 ;
+}
+
+.profile-jeffi .profile-header{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.profile-jeffi .profile-header h2{
+    font-size: 7vw;
+    font-family: "Sometype Mono", monospace;
+    font-weight: 300;
+}
+
+/* Collab Start */
+.profile-bob {
+    display: flex;
+    flex-direction: column; 
+    color: #a7ce64;
+    text-align: justify;
+}
+
+.profile-bob .description {
+    padding: 0 20%;
+    display: flex;
+    flex-direction: column;
+    font-family: "Space Grotesk", sans-serif;
+}
+
+.profile-bob .description img{
+    width: 100%;
+    align-self: center;
+    margin: .5rem 0 ;
+}
+
+.profile-bob .profile-header{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.profile-bob .profile-header h2{
+    font-size: 7vw;
+    font-family: "Sometype Mono", monospace;
+    font-weight: 300;
+}
+
+
+@media screen and (min-width: 480px) {
+    html {
+        font-size: 160%;
+    }
+
+    .hero {
+        flex-direction: row;
+        margin-top: -70px;
+    }
+
+    .hero .hero-image{
+        width: 20%;
+    }
+
+    .hero-description {
+        width: 80%;
+        padding-right: 5rem;
+    }
+
+    .profile .name{
+        flex: 15rem 2;
+    }
+
+    /* collab start */
+    
+
+    
+}
+
